@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        /* Section Styles */
+        #services {
+            padding: 50px 20px;
+            background-color: #ffffff;
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service h3 {
+            font-size: 20px;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .service-btn {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .service-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <p>Explore the professional services I offer to meet your creative and technical needs.</p>
+
+        <div class="services-container">
+            <!-- Custom Artwork Service -->
+            <div class="service">
+                <h3>Custom Artwork</h3>
+                <p>I create personalized art pieces, whether realistic portraits or digital illustrations. Perfect for gifts, decorations, or personal collections.</p>
+                <button class="service-btn">Request Now</button>
+            </div>
+
+            <!-- Graphic Design Service -->
+            <div class="service">
+                <h3>Graphic Design</h3>
+                <p>Designing unique logos, business cards, and social media content to represent your brand creatively.</p>
+                <button class="service-btn">Learn More</button>
+            </div>
+
+            <!-- Web Development Service -->
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>Building responsive, modern websites tailored to your needs using HTML, CSS, and JavaScript.</p>
+                <button class="service-btn">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
