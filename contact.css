@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(190, 104, 167);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}nav{
+    background-color: #ee3692;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.contact h1{
+    color: white;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px #fab4ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    cursor: pointer;
+}
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+   
+}
+#name{
+    background-color: rgba(246, 168, 215, 0.718);
+    border: dashed thick white;
+    color: rgb(76, 4, 74);
+}
+#email{
+    background-color: rgba(246, 168, 215, 0.718);
+    border: dashed thick white;
+    color: rgb(76, 4, 74);
+}#number{
+    background-color: rgba(246, 168, 215, 0.718);
+    border: dashed thick white;
+    color: rgb(76, 4, 74);
+}
+#message{
+    background-color: rgba(246, 168, 215, 0.718);
+    border: dashed thick white;
+    color: rgb(76, 4, 74);
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.contact form .input-box input,
+.contact form textarea{
+
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+    margin: 1rem;
+    resize: none;
+}
+.contact form .btn{
+    margin-top: 2rem;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    border: rgb(255, 89, 255) 3px solid;
+    box-shadow: #ffb3d9 0px 0px 10px;
+    box-shadow: #ffb7db 0px 0px 20px;
+    box-shadow: #ffadd6 0px 0px 50px;
+}
+.contact form .btn:hover{
+    background-color: #ee3692;
+    color: white;
+}
