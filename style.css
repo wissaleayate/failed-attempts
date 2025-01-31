@@ -29,9 +29,7 @@ cursor: pointer;
     color: rgb(125, 255, 255);
     background-color: rgb(255, 255, 192);
 }
-.write{
 
-}
 .flex-container{
     display: grid;
    /* display: flex;*/

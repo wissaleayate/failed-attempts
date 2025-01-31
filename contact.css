@@ -1,27 +1,79 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(190, 104, 167);
+    background-image: url(Abstract\ Patterns\ -\ Download\ Seamless\ Abstract\ Patterns\ for\ Free\ -\ Creative\ Fabrica.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
-}nav{
-    background-color: #ee3692;
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    
 }
-.contact h1{
+.link-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    margin: 20px 0;
+   
+   /* background-color: #e7b2ff;
+    padding-top:20px ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    font-size: 35px;*/
+    /*text-shadow: 0px 0px 10px #fcc0ff;
+    text-shadow: 0px 0px 10px #fcc0ff;
+    text-shadow: 0px 0px 10px #fcc0ff;
+    display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px 0;
+    color:aliceblue ;
+    text-decoration: none;
+    font-weight: 600;
+ padding-left: 80%;*/
+}
+.link {
+    padding: 10px 20px;
+    font-size:2em;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+   font-family: 'Courier New', Courier, monospace;
+    color:aliceblue ;
+    text-shadow: 2px 2px 5px #fab4ff;
+   
+  }
+/*.logo{
+    font-size: 35px;
+    text-shadow: 0px 0px 10px #fcc0ff;
+    text-shadow: 0px 0px 10px #fcc0ff;
+    text-shadow: 0px 0px 10px #fcc0ff;
+   
+    color:aliceblue ;
+    text-decoration: none;
+    font-weight: 600;
+ padding-left: 80%;
+
+   
+}
+.logo :hover{
+    color: blue;
+}*/
+/*.contact h1{
     color: white;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 5px #fab4ff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     cursor: pointer;
-}
+}*/
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -30,23 +82,28 @@ body{
    
 }
 #name{
-    background-color: rgba(246, 168, 215, 0.718);
+    background-color: rgba(255, 208, 236, 0.422);
     border: dashed thick white;
-    color: rgb(76, 4, 74);
+    color: rgb(85, 16, 57);
+    backdrop-filter: blur(2px);
 }
 #email{
-    background-color: rgba(246, 168, 215, 0.718);
+    background-color: rgba(255, 208, 236, 0.422);
     border: dashed thick white;
-    color: rgb(76, 4, 74);
-}#number{
-    background-color: rgba(246, 168, 215, 0.718);
+    color: rgb(85, 16, 57);
+    backdrop-filter: blur(2px);
+}
+#number{
+    background-color: rgba(255, 208, 263, 0.422);
     border: dashed thick white;
-    color: rgb(76, 4, 74);
+    color: rgb(85, 16, 57);
+    backdrop-filter: blur(2px);
 }
 #message{
     background-color: rgba(246, 168, 215, 0.718);
     border: dashed thick white;
     color: rgb(76, 4, 74);
+    width: 80%;
 }
 .contact form .input-box{
     display: flex;
